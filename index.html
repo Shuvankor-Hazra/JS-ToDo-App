@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoApp 2023 - Using HTML, CSS, JavaScript</title>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8d3c13524b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="app-area">
+      <h1>To Do App 2023</h1>
+      <div class="add-task-area">
+        <form id="add-task">
+          <div class="form-group">
+            <input type="text" placeholder="Your Task Name..." id="task" />
+            <button type="submit">Add task</button>
+          </div>
+        </form>
+        <div id="error-div"></div>
+      </div>
+      <div class="tasks-area">
+        <h2>My Task List</h2>
+        <div id="all-tasks"></div>
+      </div>
+    </section>
+    <!-- Our JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
